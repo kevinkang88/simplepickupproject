@@ -63,15 +63,24 @@ of those sections to manage the look and feel of the site. */
 /*navigation*/
 
 #nav-logo {
-    width: 180px;
-    height: auto;
+  width: 180px;
+  height: auto;
 }
 
 .navbar-right {
-    float:right;
+  float:right;
 }
 /************************/
 
+h1 {
+  font-size: 100px;
+  color:white;
+}
+
+h6 {
+  color:white;
+  font-size: 18px;
+}
 /*video {
     position: absolute;
     top: 0px;

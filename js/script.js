@@ -10,7 +10,8 @@ function playVid(){
     // mp4:'assets/vid/sp2p2.mp4',
     webm:'assets/vid/sp2p2.webm',
     scale:true,
-    zIndex:-10
+    zIndex:-100
+    // position:fixed
   });
   // this mutes vide
   $('video,audio').each(function(){this.muted=true})
