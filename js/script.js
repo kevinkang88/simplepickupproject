@@ -1,16 +1,15 @@
 $(document).ready(function(){
-  alert("page is ready to go");
   playVid();
 });
 
 
 function playVid(){
   console.log("I'm inside playVid muhahahah")
-  $('#intro').videoBG({
+  $('.intro-section').videoBG({
     // mp4:'assets/vid/sp2p2.mp4',
     webm:'assets/vid/sp2p2.webm',
     scale:true,
-    zIndex:-100
+    zIndex:1
     // position:fixed
   });
   // this mutes vide

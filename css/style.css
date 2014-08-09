@@ -81,6 +81,12 @@ h6 {
   color:white;
   font-size: 18px;
 }
+
+.col-lg-12 {
+  position: relative;
+  z-index: 1000000;
+}
+
 /*video {
     position: absolute;
     top: 0px;
