@@ -40,7 +40,7 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     height: 100%;
-    padding-top: 40px;
+    padding-top: 50px;
     text-align: center;
     background: #eee;
 }
@@ -82,10 +82,6 @@ h6 {
   font-size: 18px;
 }
 
-.col-lg-12 {
-  position: relative;
-  z-index: 1000000;
-}
 
 /*video {
     position: absolute;
