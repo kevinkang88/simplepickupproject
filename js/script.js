@@ -1,5 +1,7 @@
 $(document).ready(function(){
   playVid();
+  openSideBar();
+  sideBar();
 });
 
 
@@ -16,4 +18,31 @@ function playVid(){
   $('video,audio').each(function(){this.muted=true})
 };
 
+function sideBar(){
+  $("#menu-close").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+  $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#sidebar-wrapper").toggleClass("active");
+  });
+};
 
+function openSideBar(){
+  $('#more-menu').on('click',function(evt){
+    evt.preventDefault();
+    var slideoutMenu = $('#slideout-menu');
+    var slideoutMenuWidth = $('#slideout-menu').width();
+    slideoutMenu.toggleClass("open");
+    if(slideoutMenu.hasClass("open")){
+      slideoutMenu.animate({
+        left:"0px"
+      });
+    }else {
+      slideoutMenu.animate({
+        left: -slideoutMenu
+      },250);
+    }
+  });
+}
