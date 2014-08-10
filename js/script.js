@@ -15,3 +15,5 @@ function playVid(){
   // this mutes vide
   $('video,audio').each(function(){this.muted=true})
 };
+
+

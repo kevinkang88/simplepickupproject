@@ -17,16 +17,8 @@
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
-
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
@@ -41,13 +33,13 @@
                     <span class="icon-bar"></span>
                 </button>
                 <img src="assets/img/logo1.png" id="nav-logo">
-                <!-- <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a> -->
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
@@ -55,10 +47,10 @@
                         <a class="page-scroll" href="#about">About Us</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Learn</a>
+                        <a class="page-scroll" href="#">Learn</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Community</a>
+                        <a class="page-scroll" href="#">Community</a>
                     </li>
                 </ul>
             </div>
@@ -69,9 +61,6 @@
 
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
-        <!-- <video id="sp-video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-            <source src="assets/vid/sp2p2.webm" type="video/webm">
-        </video> -->
         <div class="container intro-main">
             <div class="row">
                 <div class="col-lg-12">
@@ -89,41 +78,134 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>About Section</h1>
+                    <h2>About Us</h2>
+                    <p>lorem ipsum fake latin hello blah this is fun</p>
                 </div>
+                <br><br><br>
             </div>
+            <center>
+            <div class="row faces-box">
+                <a href="#kong-prof" data-toggle="modal">
+                  <div class="col-sm-4 margin-bottom-xs circle-face kong">
+                   <p class="circle-name">Kong</p>
+                  </div>
+                </a>
+
+                <a href="#jesse-prof" data-toggle="modal">
+                  <div class="col-sm-4 margin-bottom-xs circle-face jesse">
+                    <p class="circle-name">Jesse</p>
+                  </div>
+                </a>
+
+                <a href="#jason-prof" data-toggle="modal">
+                  <div class="col-sm-4 margin-bottom-xs circle-face jason">
+                    <p class="circle-name">Jason</p>
+                  </div>
+                </a>
+
+            </div>
+            </center>
+          <div id="about-intro">
+
+          </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section">
+
+    <!-- footer Section -->
+    <section id="contact" class="footer-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Services Section</h1>
+                    <p></p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact Section</h1>
+
+    <!-- modals -->
+    <div class="portfolio-modal modal fade" id="kong-prof" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Kong</h2>
+                            <hr class="star-primary">
+                            <iframe width="560" height="315" src="http://www.youtube.com/embed/c2AEjejTuAk" frameborder="0" allowfullscreen></iframe><br><br>
+                            <p>Kong came from a traditional Asian family that valued introverted social habits. He was shy and timid, and this trait was a big stumbling block for him in his teenage years, as he lacked the confidence to approach not only girls, but people in general. It wasn’t until he stumbled on an online forum where guys shared dating advice — incidentally, this is how he met Jesse. Throughout the years he learned you can be introverted and yet still be very successful when picking up girls. Once Kong let go of his self-consciousness, he discovered how to have fun and be himself.</p>
+                            <br><br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
+    <div class="portfolio-modal modal fade" id="jesse-prof" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Jesse</h2>
+                            <hr class="star-primary">
+                            <iframe width="560" height="315" src="http://www.youtube.com/embed/lmwIL5LAO2o" frameborder="0" allowfullscreen></iframe><br><br>
+                            <p>Jesse started out as an overweight, cake eating, anti-social computer gamer. In the hopes of getting a girlfriend, he motivated himself to eat healthier and exercise to lose his fat. This turned into a broader mission, as he started to improve his social skills by taking public speaking classes and pushing himself to talk to girls. Jesse didn’t wait around for his problems to disappear; he actively sought solutions and ways to improve his life. This is the philosophy he holds and teaches others today.</p>
+                            <br><br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="jason-prof" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Jason</h2>
+                            <hr class="star-primary">
+                            <iframe width="560" height="315" src="http://www.youtube.com/embed/b5sbAl6RFCo" frameborder="0" allowfullscreen></iframe><br><br>
+                            <p>Jason started talking to girls after his relationship of two years ended. He was so accustomed to girls asking him out that he had a difficult time pursuing and attracting girls he wanted to talk to. However, once he met and befriended Jesse and Kong, he soon realized that he had the choice to pick up any girl he bumped into. Jason was a quick learner, and has proven that all your limiting beliefs, from excuses to a fear of change, can be overcome.</p>
+                            <br><br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of modals -->
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.videoBG.js" type="text/javascript"></script>
     <script src="js/script.js" type="text/javascript"></script>
