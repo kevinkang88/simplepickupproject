@@ -18,16 +18,16 @@ function playVid(){
   $('video,audio').each(function(){this.muted=true})
 };
 
-function sideBar(){
-  $("#menu-close").click(function(e) {
-    e.preventDefault();
-    $("#sidebar-wrapper").toggleClass("active");
-  });
-  $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#sidebar-wrapper").toggleClass("active");
-  });
-};
+// function sideBar(){
+//   $("#menu-close").click(function(e) {
+//     e.preventDefault();
+//     $("#sidebar-wrapper").toggleClass("active");
+//   });
+//   $("#menu-toggle").click(function(e) {
+//       e.preventDefault();
+//       $("#sidebar-wrapper").toggleClass("active");
+//   });
+// };
 
 function openSideBar(){
   $('#more-menu').on('click',function(evt){
