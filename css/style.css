@@ -45,6 +45,11 @@ of those sections to manage the look and feel of the site. */
 .navbar-right {
   float:right;
 }
+
+#more-menu {
+  height: 20px;
+  width: auto;
+}
 /************************/
 
 h1 {
