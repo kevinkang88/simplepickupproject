@@ -8,19 +8,6 @@ html {
     height: 100%;
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
-}
-
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
@@ -39,18 +26,12 @@ of those sections to manage the look and feel of the site. */
     background: #eee;
 }
 
-.services-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-}
 
-.contact-section {
-    height: 100%;
+.footer-section {
+    height: 30%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #5B5B61;
 }
 
 
@@ -130,27 +111,57 @@ h6 {
   color:black;
 }
 
-/*video {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1000;
-    overflow: hidden;
-}*/
+/**/
 
-/*video {
-position: fixed;
-right: 0;
-bottom: 0;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: auto;
-z-index: -100;
-background: url(assets/img/bg.jpg) no-repeat;
-background-size: cover;
+@media(max-width:976px) {
+  .circle-face {
+    width: 210px;
+    height: 210px;
+    margin: 10px 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+  }
+  .circle-name {
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 250px;
+    color:black;
+  }
+}
+
+@media(max-width:766px) {
+  .about-section {
+    height: 170%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+  }
+  .circle-face {
+    width: 210px;
+    height: 210px;
+    margin: 10px 15px;
+    margin-bottom: 50px;
+    border-radius: 100%;
+    border: 1px solid black;
+  }
+  .circle-name {
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 220px;
+    color:black;
+  }
+}
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
 }
