@@ -8,10 +8,6 @@ html {
     height: 100%;
 }
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
-of those sections to manage the look and feel of the site. */
-
 .intro-section {
     height: 100%;
     /*padding-top: 150px;*/
@@ -44,6 +40,38 @@ of those sections to manage the look and feel of the site. */
 
 .navbar-right {
   float:right;
+}
+
+#more-menu {
+  height: 20px;
+  width: auto;
+}
+
+/*#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+}
+
+#sidebar-wrapper.active {
+  right: 0px;
+  width: 250px;
+  height: 250px;
+  background-color: #222222;
+}
+
+.sample-sidebar {
+  color:white;
+}
+*/
+#slideout-menu {
+  position: fixed;
+  top:0;
+  left: -250px;
+  width: 200px;
+  height: 800px;
+  background: black;
+  z-index: 100000000000;
+  color:white;
 }
 /************************/
 
